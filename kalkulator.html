@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB7_2</title>
+    <link rel="stylesheet" href="style/kalkulator.css">
+</head>
+
+<body>
+
+    <div class="kalkulator">
+        <div class="wynik" id="wynik">0</div>
+
+        <div class="inputs">
+            <div class="pole">
+                <label>Pierwsza liczba</label>
+                <input type="number" id="a" placeholder="np. 6">
+            </div>
+
+            <div class="pole">
+                <label>Druga liczba</label>
+                <input type="number" id="b" placeholder="np. 2">
+            </div>
+
+            <div class="pole">
+                <label>Działanie</label>
+                <select id="dzialanie">
+                    <option value="dodaj">+</option>
+                    <option value="odejmij">-</option>
+                    <option value="pomnoz">*</option>
+                    <option value="podziel">/</option>
+                </select>
+            </div>
+
+            <button onclick="oblicz()">Oblicz</button>
+        </div>
+    </div>
+
+    <script src="script/kalkulator.js"></script>
+</body>
+
+</html>

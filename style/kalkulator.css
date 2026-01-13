@@ -1,0 +1,71 @@
+body {
+    background: gray;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.kalkulator {
+    width: 500px;
+    background: white;
+}
+
+.wynik {
+    background: #7dd3c7;
+    color: #56968c;
+    border: 3px solid #56968c;
+    font-size: 48px;
+    text-align: right;
+    padding: 20px 10px;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.inputs {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.pole {
+    flex: 1;
+    margin-top: 25px;
+    min-width: 120px;
+}
+
+.pole label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #555;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+button {
+    flex: 1 1 100%;
+    padding: 10px;
+    font-size: 18px;
+    background: rgb(109, 108, 108);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+button:hover {
+    background: rgb(196, 196, 196);
+}

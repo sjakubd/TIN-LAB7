@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background: lightgray;
+  display: inline-block;
+  text-align: center;
+  line-height: 100px;
+  font-family: Arial, sans-serif;
+}
+
+.buttons {
+  margin: 30px 0;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+}
